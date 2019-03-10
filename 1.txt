@@ -1,0 +1,25 @@
+问题二：修改注册表：让pdc和dc不计成本复制 解决：主辅同步的时候不能同时同步
+
+提示：如果源或域控制器之一是 Windows 2000Server DC，那么可以在http://support.microsoft.com/?id=314282 找到更多有关如何删除源 DC 上的延迟对象的信息，或从您的 Microsoft 支持专家获得这些信息。
+
+ 
+
+如果需要 ActiveDirectory 复制立即工作(不计成本)并且没有时间删除延迟对象，请通过取消下列注册表项设置，启用松散复制一致性:
+
+ 
+
+Registry Key:
+
+HKLM\System\CurrentControlSet\Services\NTDS\Parameters\StrictReplication Consistency
+
+ 
+
+将Strict Replication Consistency设置为0
+
+ 
+
+ 共享公共分区的 DC 之间的复制错误可能导致 DC 之间的用户和计算机帐户、信任关系、他们的密码、安全组、安全组成员关系和其他 ActiveDirectory 配置数据不同，这将影响登录、查找相关对象和执行其他重要操作。一旦解决了复制错误，这些不一致将解决。未能在逻辑删除生存时间内入站复制删除的对象的 DC 将保持不一致，除非管理员手动从每一个本地 DC 删除延迟对象。
+
+ 
+
+ 延迟对象可能被阻止，从而确保林中所有域控制器运行 ActiveDirectory，经由生成树连接拓扑连接，而且在逻辑删除生存时间过期之前执行入站复制。
