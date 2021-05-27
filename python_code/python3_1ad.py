@@ -38,7 +38,7 @@ def testADpassword(users,passwords):
         #ps='sun.123'
         #us='lainanfei@sunekp.cn'
         # define the connection
-            global count
+            #global count
             users[i]=users[i] + "@sunekp.cn"    
             c = Connection(s, user=users[i], password=passwords[k])
             # perform the Bind operation
@@ -48,35 +48,32 @@ def testADpassword(users,passwords):
             else:
                 print("you bind success!your name is:",us)
                 c.unbind()
-                count=count+1
-    return count
+                #count=count+1
+
+    #return count
         
 
 
 exitFlag = 0
 
 class myThread (threading.Thread):
-    def __init__(self, threadID, name, counter):
+    def __init__(self, threadID, name, counter,users,passwords):
         threading.Thread.__init__(self)
         self.threadID = threadID
         self.name = name
         self.counter = counter
+        self.users=users
+        self.passwords=passwords
     def run(self):
         print ("开始线程：" + self.name)
-        print_time(self.name, self.counter, 5)
+        testADpassword(self.name, self.counter, users,passwords)
         print ("退出线程：" + self.name)
 
-def print_time(threadName, delay, counter):
-    while counter:
-        if exitFlag:
-            threadName.exit()
-        time.sleep(delay)
-        print ("%s: %s" % (threadName, time.ctime(time.time())))
-        counter -= 1
+
 
 # 创建新线程
-thread1 = myThread(1, "Thread-1", 1)
-thread2 = myThread(2, "Thread-2", 2)
+thread1 = myThread(1, "Thread-1", 1, users1,passwords )
+thread2 = myThread(2, "Thread-2", 2,users2,passwords )
 
 # 开启新线程
 thread1.start()
