@@ -15,8 +15,8 @@ with open('users.txt','r') as f:
 for i in range(0, len(users)):
     print(users[i])
 f.close()
-users1=users[0:len(users)/2]
-users2=users[len(users)/2:len(users)]
+users1=users[0:len(users)//2]
+users2=users[len(users)//2:len(users)]
 print(users1)
 print(users2)
 #读入密码文件
@@ -54,33 +54,15 @@ def testADpassword(users,passwords):
         
 
 
-exitFlag = 0
+# 创建两个线程
+try:
+   _thread.start_new_thread( testADpasword(users1,passwords), ("Thread-1", 2, ) )
+   _thread.start_new_thread( testADpasword(users1,passwords), ("Thread-2", 4, ) )
+except:
+   print ("Error: 无法启动线程")
 
-class myThread (threading.Thread):
-    def __init__(self, threadID, name, counter,users,passwords):
-        threading.Thread.__init__(self)
-        self.threadID = threadID
-        self.name = name
-        self.counter = counter
-        self.users=users
-        self.passwords=passwords
-    def run(self):
-        print ("开始线程：" + self.name)
-        testADpassword(self.name, self.counter, users,passwords)
-        print ("退出线程：" + self.name)
-
-
-
-# 创建新线程
-thread1 = myThread(1, "Thread-1", 1, users1,passwords )
-thread2 = myThread(2, "Thread-2", 2,users2,passwords )
-
-# 开启新线程
-thread1.start()
-thread2.start()
-thread1.join()
-thread2.join()
-print ("退出主线程")
+while 1:
+   pass
 
 
 print(count)
