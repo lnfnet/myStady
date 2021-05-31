@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # import class and constants
 from ldap3 import Server, Connection, ALL
-import threading
+import _thread
 import time
 
 # define the server
@@ -13,7 +13,7 @@ with open('users.txt','r') as f:
     users = line.split("\n")         # 以换行符分隔
     print(users)
 for i in range(0, len(users)):
-    print(users[i])
+    print(users[i],len(users))
 f.close()
 users1=users[0:len(users)//2]
 users2=users[len(users)//2:len(users)]
@@ -29,8 +29,9 @@ for k in range(0, len(passwords)):
 f.close()
 
 
+
 #定义多线程比对算法 
-def testADpassword(users,passwords):
+def testADpassword(users,passwords,threadName):
     for i in range(0,len(users)):
         for k in range(0,len(passwords)):
         # print (users[i],passwords[k])
@@ -44,25 +45,20 @@ def testADpassword(users,passwords):
             # perform the Bind operation
             if not c.bind():
             #print('error in bind', c.result)
-                print("")   
+                print("not bind",threadName)   
             else:
-                print("you bind success!your name is:",us)
+                print("you bind success!your name is:",users[i] ,threadName)
                 c.unbind()
                 #count=count+1
-
-    #return count
+        #return count
         
-
 
 # 创建两个线程
 try:
-   _thread.start_new_thread( testADpasword(users1,passwords), ("Thread-1", 2, ) )
-   _thread.start_new_thread( testADpasword(users1,passwords), ("Thread-2", 4, ) )
+    _thread.start_new_thread( testADpassword, (users1,passwords,"thread-1",) )
+    _thread.start_new_thread( testADpassword, (users2,passwords,"thread-2 ",) )
 except:
-   print ("Error: 无法启动线程")
-
-while 1:
-   pass
+    print ("Error: 无法启动线程")
 
 
 print(count)
