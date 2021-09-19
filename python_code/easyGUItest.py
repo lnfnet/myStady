@@ -1,5 +1,4 @@
 #incoding= utf-8
-
 import sys
 import easygui as g
 
