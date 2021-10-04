@@ -1,0 +1,100 @@
+{
+	"switch": [{
+		"ip": "192.168.5.1",
+		"port": "22",
+		"username": "cisco",
+		"password": "cisco123",
+		"protocol": "ssh",
+		"cmd": "show run",
+		"PS1": ["ASA5506X>","ASA5506X#"],
+		"desc": "ASA5506防火墙",
+		"isNeedEnableMode": "1",
+		"enablePassword": "cisco456",
+		"fileName": "asa5506X_192.168.5.1.txt"
+	},{
+		"ip": "192.168.5.254",
+		"port": "22",
+		"username": "huawei",
+		"password": "huawei123",
+		"protocol": "ssh",
+		"cmd": "display current-configuration",
+		"PS1": ["<Core-S5700>"],
+		"desc": "S5700核心交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "core_s5700_192.168.5.254.txt"
+	},{
+		"ip": "192.168.10.1",
+		"port": "22",
+		"username": "cisco",
+		"password": "cisco123",
+		"protocol": "ssh",
+		"cmd": "show run",
+		"PS1": ["CME-2901>","CME-2901#"],
+		"desc": "CME-2901思科VOIP交换机",
+		"isNeedEnableMode": "1",
+		"enablePassword": "cisco456",
+		"fileName": "2901_CME_192.168.10.1.txt"
+	},{
+		"ip": "192.168.200.3",
+		"port": "22",
+		"username": "huawei",
+		"password": "huawei123",,
+		"protocol": "ssh",
+		"cmd": "display current-configuration",
+		"PS1": ["<POE-S5700>"],
+		"desc": "S5700POE交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "poe_s5700_192.168.200.3.txt"
+	},{
+		"ip": "192.168.200.5",
+		"port": "22",
+		"username": "cisco",
+		"password": "cisco123",
+		"protocol": "ssh",
+		"cmd": "show run",
+		"PS1": ["POE-2960#"],
+		"desc": "2960交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "2960_24poe_192.168.200.5.txt"
+ 
+	},{
+		"ip": "192.168.200.6",
+		"port": "23",
+		"username": "huawei",
+		"password": "huawei123",
+		"protocol": "telnet",
+		"cmd": "display current-configuration",
+		"PS1": ["<5600_6>"],
+		"desc": "5700交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "5700_192.168.200.6.txt"
+	},{
+		"ip": "192.168.200.7",
+		"port": "22",
+		"username": "huawei",
+		"password": "huawei123",
+		"protocol": "ssh",
+		"cmd": "display current-configuration",
+		"PS1": ["<5700_7>"],
+		"desc": "5700交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "5700_192.168.200.7.txt"
+	},{
+		"ip": "192.168.200.8",
+		"port": "23",
+		"username": "huawei",
+		"password": "huawei123",
+		"protocol": "telnet",
+		"cmd": "display current-configuration",
+		"PS1": ["<5700_8>"],
+		"desc": "5700交换机",
+		"isNeedEnableMode": "0",
+		"enablePassword": "",
+		"fileName": "5700_192.168.200.8.txt"
+	}]
+}
