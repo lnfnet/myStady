@@ -2,6 +2,7 @@
 from ldap3 import Server, Connection, ALL
 import threading
 import time
+import csv
 
 # define the server
 s = Server('192.168.100.192', get_info=ALL)  # define an unsecure LDAP server, requesting info on DSE and schema
