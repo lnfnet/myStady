@@ -4,7 +4,8 @@ import time
 app = Application(backend="uia").start('notepad.exe')
 app.__setattr__("name","notepad")
 time.sleep(2)
-app.notepad.edit.TypeKeys('Test ......................')
+app.Notepad.edit.TypeKeys("hello.....")
+app.Notepad.edit.TypeKeys('Test ......................')
 app.edit.TypeKeys('Test ......................')
 time.sleep(2)
 #中文版本操作
