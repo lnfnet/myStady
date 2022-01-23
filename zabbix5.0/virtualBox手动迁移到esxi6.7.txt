@@ -1,0 +1,17 @@
+dell t30   ctrl + i  安装raid 1
+
+vboxmanage.exe clonehd "e:\vm\zabbix.vhd"  e:\vm\zabbix.vmdk
+
+最近公司新买了台服务器，这次准备裸机装exsi6.5来管理虚拟机．周末两天被坑的差点放弃但坚持下来，最终还是成功了，其实真的还是很简单的,需要注意几点，分享给大家：
+1：vbox里可以不用导出虚拟主机，而是直接使用虚拟磁盘文件．从虚拟机导出的ova文件实际上是包含了虚拟机的配置和磁盘的包文件,直接导入ｖｍ会有各种问题；
+
+２：经过测试发现ｖｍｄｋ格式是虚拟磁盘可以直接再ｖｍ的虚机机里使用，所以我们可以先创建一个虚拟机可以没有硬盘，然后再添加ｖｂｏｘ里的虚拟磁盘即可；如果ｖｂｏｘ里用的是ｖｈｄ或是ｖｄｉ格式的虚拟盘也没有关系，可以ｖｂｏｘ提供程序转换下：
+       C:\Program Files\Oracle\VirtualBox>VBoxManage.exe clonehd "D:\vbox\zhoujiayu\zhoujiayu\win2008.vhd" d:\vbox\zhoujiayu.vmdk --format VMDK
+３：ｖｂｏｘ和ｖｍ的虚拟机磁盘驱动要一样，ｖｂｏｘ里如果选择的ｓａｔａ的磁盘，ｖｍ也必须选择ｓａｔａ，否则系统可能会蓝屏．
+
+４：如果原ｖｂｏｘ磁盘是ｓｔａｔ的，会出现＂无法打开磁盘 scsi0:0: 磁盘类型 不受支持或无效。请确保磁盘已导入＂，需要用ｓｓｈ工具进入服务器，用vmkfstools 命令转换下; 
+      命令格式：vmkfstools -i <HostedVirtualDisk>  <ESXVirtualDisk>        
+
+    ​    ​cd /vmfs/volumes/51dc3538-bbdf69dc-6e61-782bcb765b0f/zenoss_core-4.2.5-1998-x86_64/
+
+    ​    ​vmkfstools -i zenoss_core-4.2.5-1998-x86_64.vmdk  zenoss_core-4.2.5-1998-x86_64-new.vmdk 

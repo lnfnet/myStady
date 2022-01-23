@@ -1,0 +1,166 @@
+ 14596:20220114:095242.998 Starting Zabbix Agent [Windows host]. Zabbix 5.0.19 (revision e10b946a33).
+ 14596:20220114:095242.998 **** Enabled features ****
+ 14596:20220114:095242.999 IPv6 support:          YES
+ 14596:20220114:095242.999 TLS support:           YES
+ 14596:20220114:095242.999 **************************
+ 14596:20220114:095243.000 using configuration file: C:\zabbix_agentd.conf
+ 14596:20220114:095244.405 agent #0 started [main process]
+ 13304:20220114:095244.405 agent #1 started [collector]
+ 21284:20220114:095244.406 agent #2 started [listener #1]
+ 19884:20220114:095244.406 agent #4 started [listener #3]
+ 23476:20220114:095244.407 agent #5 started [active checks #1]
+ 10732:20220114:095244.408 agent #3 started [listener #2]
+ 23476:20220114:095244.417 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:095444.526 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:095644.634 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:095844.722 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:100044.821 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:100244.929 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:100444.042 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:100644.137 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:100844.212 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:101044.289 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:101244.362 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:101444.424 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:101644.491 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:101844.565 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:102044.630 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:102244.692 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:102444.769 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:102644.837 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:102844.924 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:103044.022 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:103244.117 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:103444.218 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:103644.313 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:103844.423 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:104044.577 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:104244.810 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:104444.942 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:104644.040 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:104844.136 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:105044.216 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:105244.316 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:105444.416 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:105644.517 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:105844.617 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:110044.721 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:110244.833 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:110444.930 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:110644.035 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:110844.138 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:111044.248 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:111244.356 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:111444.464 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:111644.563 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:111844.669 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:112044.785 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:112244.889 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:112444.995 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:112644.214 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:112844.306 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:113044.402 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:113244.500 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:113444.605 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:113644.704 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:113844.802 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:114044.900 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:114245.002 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:114445.102 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:114645.209 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:114845.310 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:115045.409 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:115245.512 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:115445.614 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:115645.714 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:115845.813 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:120045.917 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:120245.018 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:120445.122 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:120645.228 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:120845.328 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:121045.434 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:121245.535 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:121445.642 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:121645.744 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:121845.850 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:122045.948 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:122245.047 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:122445.163 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:122645.277 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:122845.446 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:123045.545 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:123245.644 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:123445.742 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:123645.842 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:123845.945 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:124045.048 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:124245.148 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:124445.251 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:124645.361 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:124845.467 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:125045.574 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:125245.677 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:125445.782 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:125645.881 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:125845.995 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:130045.105 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:130245.202 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:130445.316 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:130645.413 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:130845.522 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:131045.625 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:131245.729 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:131445.841 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:131645.946 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:131845.050 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:132045.148 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:132245.232 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:132445.338 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:132645.441 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:132845.536 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:133045.630 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:133245.740 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:133445.855 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:133645.969 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 23476:20220114:133845.085 no active checks on server [192.168.10.133:10051]: host [Windows host] not found
+ 22732:20220114:133948.820 Zabbix Agent stopped. Zabbix 5.0.19 (revision e10b946a33).
+ 22616:20220114:133949.921 Starting Zabbix Agent [myPc]. Zabbix 5.0.19 (revision e10b946a33).
+ 22616:20220114:133949.921 **** Enabled features ****
+ 22616:20220114:133949.921 IPv6 support:          YES
+ 22616:20220114:133949.922 TLS support:           YES
+ 22616:20220114:133949.922 **************************
+ 22616:20220114:133949.922 using configuration file: C:\zabbix_agentd.conf
+ 22616:20220114:133951.357 agent #0 started [main process]
+ 13220:20220114:133951.358 agent #1 started [collector]
+ 25656:20220114:133951.360 agent #3 started [listener #2]
+ 25800:20220114:133951.361 agent #4 started [listener #3]
+ 21732:20220114:133951.361 agent #5 started [active checks #1]
+  4944:20220114:133951.362 agent #2 started [listener #1]
+ 21732:20220114:133951.373 no active checks on server [192.168.10.133:10051]: host [myPc] not found
+ 21732:20220114:134151.485 no active checks on server [192.168.10.133:10051]: host [myPc] not found
+ 21732:20220114:134351.589 no active checks on server [192.168.10.133:10051]: host [myPc] not found
+ 25656:20220114:134400.813 failed to accept an incoming connection: connection from "127.0.0.1" rejected, allowed hosts: "192.168.10.133"
+ 21732:20220114:134551.700 no active checks on server [192.168.10.133:10051]: host [myPc] not found
+ 21732:20220114:134751.810 no active checks on server [192.168.10.133:10051]: host [myPc] not found
+  4944:20220114:135731.747 failed to accept an incoming connection: from 192.168.10.133: reading first byte from connection failed: [0x0000274C] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 25800:20220114:135754.091 failed to accept an incoming connection: from 192.168.10.133: reading first byte from connection failed: [0x0000274C] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+  4944:20220114:135829.983 failed to accept an incoming connection: from 192.168.10.133: reading first byte from connection failed: [0x0000274C] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 25800:20220114:135838.107 Message from 192.168.10.133 is missing header. Message ignored.
+ 21732:20220115:032558.383 active check configuration update from [192.168.10.133:10051] started to fail (ZBX_TCP_READ() failed: [0x0000274C] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)
+ 21732:20220115:032658.427 active check configuration update from [192.168.10.133:10051] is working again
+  6332:20220117:094426.828 Zabbix Agent stopped. Zabbix 5.0.19 (revision e10b946a33).
+  4852:20220117:094506.169 Starting Zabbix Agent [myPc]. Zabbix 5.0.19 (revision e10b946a33).
+  4852:20220117:094506.169 **** Enabled features ****
+  4852:20220117:094506.169 IPv6 support:          YES
+  4852:20220117:094506.169 TLS support:           YES
+  4852:20220117:094506.170 **************************
+  4852:20220117:094506.170 using configuration file: C:\zabbix_agentd.conf
+  4852:20220117:094508.703 agent #0 started [main process]
+  3792:20220117:094508.703 agent #1 started [collector]
+  5896:20220117:094508.703 agent #5 started [active checks #1]
+  3544:20220117:094508.704 agent #2 started [listener #1]
+  3540:20220117:094508.704 agent #4 started [listener #3]
+  3780:20220117:094508.704 agent #3 started [listener #2]
+  5896:20220117:094511.716 active check configuration update from [192.168.10.133:10051] started to fail (cannot connect to [[192.168.10.133]:10051]: (null))
+  5896:20220117:185833.678 active check configuration update from [192.168.10.133:10051] is working again
