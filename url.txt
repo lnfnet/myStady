@@ -3,3 +3,4 @@ https://www.cnblogs.com/dalianpai/p/12527819.html	docker-web
 https://linux.cn/article-7183-1.html 	backup
 https://blog.csdn.net/valada/article/details/81325828  	 bacula  for backup
 https://www.sohu.com/a/299333070_722102                           netbackup
+https://blog.csdn.net/zetion_3/article/details/103575905         rsync
